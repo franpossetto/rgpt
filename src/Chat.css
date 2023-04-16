@@ -1,0 +1,85 @@
+.app {
+    display: flex;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.sidemenu {
+    width: 16%;
+    background-color: white;
+    color: #343541;
+}
+
+.chatbox {
+    flex:1;
+    background-color: #f7f7f8;
+    color: #343541;
+    width: 84%;
+    position: relative;
+}
+
+  .sidemenu-container{
+    flex-direction: column;
+    margin-left: 10%; 
+    margin-right: 10%;
+  }
+
+.logo {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .new-chat-button{
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .new-chat-button:active {
+    border-color: #d9d9d9 !important;
+  }
+
+  .input-chat {
+    position: absolute;
+    height: 45px;
+    margin-left: 25%;
+    bottom:0;
+    width:50%;
+    margin-bottom: 3%;
+  }
+
+  .chat-log{
+    text-align: left;
+  }
+
+  .chat-message{
+    background-color: #f7f7f8;
+    
+  }
+
+  .chat-message.chatgpt{
+    background-color: #f0f0f0;
+  }
+
+  .chat-message-center{
+    display: flex;
+    padding: 12px;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+  .avatar{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+  }
+
+  .message{
+    padding-left: 40px;
+    padding-right:40px;
+  }
+
